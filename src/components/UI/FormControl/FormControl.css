@@ -1,0 +1,23 @@
+.control {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  color: #18121e;
+  font: inherit;
+  letter-spacing: 2px;
+
+  outline: none;
+}
+
+.invalid {
+  background-color: #E5A69F;
+}
+
+.control:not(.invalid):focus {
+  background-color: #ddd;
+}

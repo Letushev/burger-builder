@@ -1,0 +1,11 @@
+.summary {
+  text-align: center;
+}
+
+.summary h1 {
+  font-size: 18px;
+}
+
+.summary button {
+  margin: 0 10px;
+}

@@ -1,0 +1,15 @@
+.build-control {
+  width: 300px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.build-control button {
+  margin-left: 10px;
+}
+
+.label {
+  margin-right: auto;
+}

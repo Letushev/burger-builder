@@ -1,0 +1,9 @@
+.order-summary h3 {
+  text-align: center;
+  color: #eac67a;
+}
+
+.order-summary button {
+  margin-left: 10px;
+  float: right;
+}

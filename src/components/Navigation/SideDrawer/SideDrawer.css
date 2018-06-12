@@ -1,0 +1,29 @@
+.side-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  height: 100%;
+  width: 275px;
+  padding: 20px 0;
+  text-align: center;
+
+  background-color:#233237;
+  transition: transform .3s ease-out;
+}
+
+.side-drawer nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.opened {
+  transform: translateX(0);
+}
+
+.closed {
+  transform: translateX(-300px);
+}

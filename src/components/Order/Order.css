@@ -1,0 +1,15 @@
+.order {
+  width: 75%;
+  margin: 15px auto;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.ingredient {
+  text-transform: capitalize;
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: #18121e;
+  background-color: #fff;
+}
