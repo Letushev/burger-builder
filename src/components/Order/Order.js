@@ -16,7 +16,8 @@ const order = props => {
 
   return (
     <div className={ styles['order'] }>
-      <p>Ingredients: { ingredients }</p>
+      <p>Ingredients: </p>
+      <div className={ styles['ingredients-list'] }>{ ingredients }</div>
       <p>Price: USD { <span style={ { color: '#eac67a' } }>{ props.price.toFixed(2) }</span> }</p>
     </div>
   );

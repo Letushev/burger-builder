@@ -27,7 +27,7 @@ const buildControls = props => {
         type='weighty'
         clicked={ props.purchase }
         isDisabled={ !props.purchasable }>
-          { props.isAuth ? 'Order' : 'Sign Up to order' }
+          { props.isAuth ? 'Order' : 'Sign In to order' }
       </Button>
     </div> 
   );

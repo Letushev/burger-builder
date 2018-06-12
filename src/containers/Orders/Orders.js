@@ -17,12 +17,14 @@ class Orders extends Component {
     return (
       this.props.loading ? <Loader /> :
         <div>
-          { this.props.orders.map(order => (
-            <Order 
-              key={ order.id }
-              ingredients={ order.ingredients }
-              price={ order.price } /> 
-          )) }
+          { this.props.orders.length ? 
+              this.props.orders.map(order => (
+              <Order 
+                key={ order.id }
+                ingredients={ order.ingredients }
+                price={ order.price } />)) :
+              <p style={{ 'text-align': 'center' }}>No orders yet...</p>
+          }
         </div>
     );
   }

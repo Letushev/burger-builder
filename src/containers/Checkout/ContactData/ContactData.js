@@ -18,7 +18,8 @@ class ContactData extends Component {
         elementType: 'input',
         elementConfig: {
           type: 'text',
-          placeholder: 'Your name'
+          placeholder: 'Your name',
+          autoComplete: 'name'
         },
         value: '',
         validationRules: {
@@ -32,7 +33,8 @@ class ContactData extends Component {
         elementType: 'input',
         elementConfig: {
           type: 'email',
-          placeholder: 'Email'
+          placeholder: 'Email',
+          autoComplete: 'email'
         },
         value: '',
         validationRules: {
@@ -46,7 +48,8 @@ class ContactData extends Component {
         elementType: 'input',
         elementConfig: {
           type: 'text',
-          placeholder: 'Country'
+          placeholder: 'Country',
+          autoComplete: 'country-name'
         },
         value: '',
         validationRules: {},

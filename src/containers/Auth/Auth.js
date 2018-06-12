@@ -17,7 +17,8 @@ class Auth extends Component {
         elementType: 'input',
         elementConfig: {
           type: 'email',
-          placeholder: 'Email'
+          placeholder: 'Email',
+          autoComplete: 'email'
         },
         value: '',
         validationRules: {
@@ -31,7 +32,8 @@ class Auth extends Component {
         elementType: 'input',
         elementConfig: {
           type: 'password',
-          placeholder: 'Password'
+          placeholder: 'Password',
+          autoComplete: 'current-password'
         },
         value: '',
         validationRules: {
@@ -42,7 +44,7 @@ class Auth extends Component {
         touched: false
       }
     },
-    signUping: true
+    signUping: false
   }
 
   controlChangedHandler = (event, element) => {

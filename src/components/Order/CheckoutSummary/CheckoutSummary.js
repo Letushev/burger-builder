@@ -6,7 +6,7 @@ import Button from '../../UI/Button/Button';
 
 const checkoutSummary = props => (
   <div className={ styles['summary'] }>
-    <h1>Please, your tasty burger</h1>
+    <h1>Your tasty burger is ready!</h1>
     <Burger ingredients={ props.ingredients } />
     <Button 
       type='success'
