@@ -170,14 +170,7 @@ module.exports = {
             loader: ExtractTextPlugin.extract(
               Object.assign(
                 {
-                  fallback: {
-                    loader: require.resolve('style-loader'),
-                    options: {
-                      hmr: false,
-                      modules: true,
-                      localIdentName: '[name]__[local]__[hash:base64:5]'
-                    },
-                  },
+                  fallback: require.resolve('style-loader'),
                   use: [
                     {
                       loader: require.resolve('css-loader'),
@@ -185,6 +178,8 @@ module.exports = {
                         importLoaders: 1,
                         minimize: true,
                         sourceMap: shouldUseSourceMap,
+                        modules: true,
+                        localIdentName: '[name]__[local]__[hash:base64:5]'
                       },
                     },
                     {
