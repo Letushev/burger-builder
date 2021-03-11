@@ -1,1 +1,1 @@
-[LIVE](https://burger-builder-5c675.firebaseapp.com/)
+Live: https://burger-builder-5c675.firebaseapp.com/
